@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(27, 27, 27);
+    display: grid;
+    grid-row-gap: 2rem;
+}
+
+.button-fixed {
+    z-index: 1;
+    position: fixed;
+    bottom: 2.5rem;
+    right: 2.5rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 2rem;
+    background-color: #63dc3e;
+    border-color: #63dc3e;
+}
+
+.card-trio {
+    display: flex;
+    gap: 2rem;
+}
+
+.card-dark {
+    background-color: #242424;
+    color: #fffff5;
+    border-radius: 1rem !important;
+}
+
+.card-img {
+    border-radius: 1rem 1rem 0rem 0rem !important;
+}
+
+@media (max-width: 576px) {
+    .card-trio {
+        display: grid;
+        justify-items: center;
+    }
+
+    .card-dark {
+        max-width: 80%;
+    }
+}
