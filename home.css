@@ -4,6 +4,12 @@ body {
     grid-row-gap: 2rem;
 }
 
+a {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+
 .button-fixed {
     z-index: 1;
     position: fixed;
